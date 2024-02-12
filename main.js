@@ -9,6 +9,6 @@ export const fn = (a, b, c) => {
     if (a < 0 || b < 0 || c < 0) {
       throwerror();
     }
-    return Math.ceil((12 * a + 14 * b + 16 * c) / 3);
   }
+  return Math.ceil((12 * a + 14 * b + 16 * c) / 3);
 };
